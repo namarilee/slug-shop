@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    font-size: 28px;
+    padding-bottom: 0;
+  }
+  body {
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deepskyblue;
+  }
+  .container{
+    max-width: 500px;
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 10px rgba(0,0,0,1); 
+  }
+  .container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+  }
+  .container form .details{
+    margin-top: 10px;
+  }
+  .container form .title{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 6px 0;
+    color: black;
+  }
+  .container form .fields{
+    margin: 20px 0 10px;
+  }
+  form .fields .label{
+    margin: 12px 0 7px;
+    display: block;
+    font-size: larger;
+  }
+  .fields .label .input-field input{
+    height: 25px;
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+  form .label .multi-select {
+    margin-top: 5px;
+    font-size: medium;
+  }
+  form .label .large-input-field{
+    margin: 5px 0;
+  }
+  .large-input-field textarea{
+    height: 70px;
+    width: 100%;
+    outline: none;
+    font-size: large;
+    margin-top: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+  form .fields .upload-field{
+    margin: 5px 0;
+  }
+  .upload-field 
+  form .fields .social-media-field{
+    margin: 5px 0;
+  }
+  .social-media-field input{
+    height: 25px;
+    width: 50%;
+    outline: none;
+    margin-top: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+  form .submit .submit-label{
+    margin: 15px 0 5px 0;
+  }
+  form .button{
+    height: 30px;
+    margin: 5px 0;
+  }
+  form .button input{
+    height: 100%;
+    width: 30%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #2663be;
+    cursor: pointer;
+    font-size: medium;
+  }
+  form .button input:hover{
+    background-color: #2642be;
+  }

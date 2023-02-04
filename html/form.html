@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="./form_style.css">
+  </head>
+  <body>
+    <div class="container">
+        <header>Slug Shop Form</header>
+        <form action="#">
+            <div class="fields">
+              <div class="label">
+                <label>Full Name</label>
+                  <div class="input-field">
+                    <input type="text" placeholder="Enter your full name">
+                  </div>
+              </div>
+              <div class="label">
+                <label>Email</label>
+                <div class="input-field">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+              </div>
+              <div class="label">
+                <label>Business Name</label>
+                <div class="input-field">
+                  <input type="text" placeholder="Enter your business name">
+                </div>
+              </div>
+              <div class="label">
+                <label>Choose Category</label>
+                <div class="multi-select">
+                  <input type="checkbox" id="ex">
+                  <label for="ex">Example category</label><br>
+                </div>
+              </div>
+              <div class="label">
+                <label>Description of Business </label>
+                <div class="large-input-field">
+                  <textarea name="business-desc" id="business-desc" 
+                            cols="30" rows="4" maxlength="250"
+                            placeholder="Enter business description (250 characters max)">
+                  </textarea>
+                </div>
+              </div>
+              <div class="label">
+                <label>Student ID Upload</label>
+                <div class="upload-field">
+                  <input type="file">
+                </div>
+              </div>
+              <div class="label">
+                <label>Social Media Accounts</label>
+                <div class="social-media-field">
+                  <div class="social-left">
+                    <input type="Platform" placeholder=" Social media platform">
+                  </div>
+                  <div class="social-right">
+                    <input type="text" placeholder=" Account name">
+                  </div>
+                </div>
+              </div>
+              <div class="label">
+                <label>Business Profile Image</label>
+                <div class="upload-field">
+                  <input type="file">
+                </div>
+              </div>
+              <div class="label">
+                <label>Submit form</label>
+                <div class="button">
+                  <input type="submit" value = "Submit">
+                </div>
+              </div>
+            </div>
+        </form>
+    </div>
+	<script src="index.js"></script>
+  </body>
+</html>
