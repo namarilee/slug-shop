@@ -1,0 +1,84 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Gilmer";
+    src: url("Fonts/Gilmer-Regular.otf");
+}
+
+@font-face {
+    font-family: "Gilmer Bold";
+    src: url("Fonts/Gilmer-Bold.ttf");
+}
+
+/* General */
+
+.regular-font {
+	font-family: "Gilmer";
+}
+
+.bold-font {
+	font-family: "Gilmer Bold";
+}
+
+.dark-blue-font {
+	color: rgb(0, 30, 107)
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Nav bar */
+
+#nav-bar {
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 1.5em; 
+    background-color:rgb(255, 255, 255); 
+}
+
+li {
+    display: inline;
+}
+
+
+li a {
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    font-family: "Gilmer Bold";
+}
+
+#ss-logo {
+	margin-top: -0.7em;
+    margin-left: 1.5em;
+    float: left;
+	width: 140px;
+    height: 140px;
+}
+
+#nav-options {
+    float: right;    
+}
+
+/* Home */
+
+#home-title {
+	font-family: "Gilmer Bold";
+	font-size: 6em;
+	margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#home-subtitle {
+	font-family: "Gilmer";
+	font-size: 2em;
+	
+}
