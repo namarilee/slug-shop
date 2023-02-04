@@ -135,7 +135,7 @@ form .fields .label{
 }
 .fields .label .input-field input{
   height: 25px;
-  width: 100%;
+  width: 40%;
   outline: none;
   margin-top: 5px;
   font-size: medium;
