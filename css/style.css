@@ -104,7 +104,8 @@ li a {
 	border-style: solid;
 	border-width: 3px;
 	transition: 0.15s ease-in;
-
+	z-index: 2;
+	position: absolute;
 }
 
 #browse-button:hover {
@@ -117,10 +118,11 @@ li a {
 #fbg {
 	width: 110%;
 	height: 70%;
-	margin-top: -15em;
+	margin-top: -10em;
 	margin-left: -2em;
 	margin-right: -2em;
-	
+	z-index: 1;
+	position:relative;
 }
 
 /* About page */
