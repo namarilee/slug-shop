@@ -109,3 +109,16 @@ li a {
 	margin-right: -2em;
 
 }
+
+/* About page */
+#about-title {
+	font-family: "Gilmer Bold";
+	font-size: 6em;
+	margin-top: 2em;
+    margin-bottom: 0;
+}
+#about-subtitle {
+	font-family: "Gilmer";
+	font-size: 1.7em;
+	margin-bottom: 2em;
+}
