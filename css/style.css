@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "Gilmer";
-    src: url("fonts/Gilmer-Regular.otf");
+    src: url("../fonts/Gilmer-Regular.otf");
 }
 
 @font-face {
     font-family: "Gilmer Bold";
-    src: url("fonts/Gilmer-Bold.ttf");
+    src: url("../fonts/Gilmer-Bold.ttf");
 }
 
 /* General */
