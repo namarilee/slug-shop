@@ -101,7 +101,7 @@ li a {
 	text-decoration: none;
 	padding: 13px;
 	border-radius: 10px;
-	transition: background-color 0.15s ease-in;
+	transition: 0.15s ease-in;
 
 }
 
