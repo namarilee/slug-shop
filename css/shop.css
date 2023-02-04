@@ -61,11 +61,23 @@ li a {
 
 /* Shop section */
 
-#search-bar {
-	justify-content: center;
+#filter-options {
 	margin-top: 12em;
-	height: 55px;
-	width: 600px;
+	
+}
+
+.filter-button {
+	font-family: "Gilmer Bold";
+	text-decoration: none;
+	color: var(--dark-blue);
+	background-color: rgb(221, 240, 255);
+	border-color: var(--dark-blue);
+	padding: 10px;
+	margin-right: 1em;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 3px;
+	transition: 0.15s ease-in;
 }
 
 #shops-grid {
