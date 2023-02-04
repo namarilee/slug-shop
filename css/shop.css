@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "Gilmer";
-    src: url("Fonts/Gilmer-Regular.otf");
+    src: url("fonts/Gilmer-Regular.otf");
 }
 
 @font-face {
     font-family: "Gilmer Bold";
-    src: url("Fonts/Gilmer-Bold.ttf");
+    src: url("fonts/Gilmer-Bold.ttf");
 }
 
 body {
@@ -61,7 +61,12 @@ li a {
 
 /* Shop section */
 
-
+#search-bar {
+	justify-content: center;
+	margin-top: 12em;
+	height: 55px;
+	width: 600px;
+}
 
 #shops-grid {
 	display: grid;
@@ -69,7 +74,7 @@ li a {
 	grid-gap: 30px;
 	justify-content: center;
 	grid-template-columns: repeat(2, 1fr);
-	margin-top: 13em;
+	margin-top: 4em;
 	margin-left: 15%;
 	margin-right: 20%;
 }
