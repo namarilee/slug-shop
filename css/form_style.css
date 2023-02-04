@@ -97,6 +97,7 @@ body {
   background-color: deepskyblue;
 }
 .container{
+  font-family: "Gilmer Bold";
   top: 1px;
   max-width: 500px;
   position: relative;
@@ -129,9 +130,12 @@ form .fields .label{
   display: block;
   font-size: larger;
 }
+.label .multi-select{
+  font-family: "Gilmer";
+}
 .fields .label .input-field input{
   height: 25px;
-  width: 100%;
+  width: 40%;
   outline: none;
   margin-top: 5px;
   font-size: medium;
