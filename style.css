@@ -13,7 +13,7 @@
 /* General */
 
 body {
-	background-color: rgb(121, 199, 255);
+	background-color: rgb(178, 223, 255);
 
 }
 
@@ -35,6 +35,7 @@ body {
 
 :root {
 	--dark-blue: rgb(0, 30, 107);
+	--light-blue: rgb(178, 223, 255);
 }
 /* Nav bar */
 
@@ -95,10 +96,20 @@ li a {
 	font-family: "Gilmer Bold";
 	color: white;
 	background-color: var(--dark-blue);
+	border-color: var(--dark-blue);
 	font-size: 1.3em;
 	text-decoration: none;
 	padding: 13px;
 	border-radius: 10px;
+	transition: background-color 0.15s ease-in;
+
+}
+
+#browse-button:hover {
+	background-color: var(--light-blue);
+	border-color: var(--dark-blue);
+	color: var(--dark-blue);
+
 }
 
 #fbg {
@@ -122,3 +133,4 @@ li a {
 	font-size: 1.7em;
 	margin-bottom: 2em;
 }
+
