@@ -21,15 +21,16 @@
 }
 
 .dark-blue-font {
-	color: rgb(0, 30, 107)
+	color: rgb(0, 30, 107);
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 15%;
 }
 
+:root {
+	--dark-blue: rgb(0, 30, 107);
+}
 /* Nav bar */
 
 #nav-bar {
@@ -79,6 +80,25 @@ li a {
 
 #home-subtitle {
 	font-family: "Gilmer";
-	font-size: 2em;
-	
+	font-size: 1.7em;
+	margin-bottom: 2em;
+}
+
+#browse-button {
+	font-family: "Gilmer Bold";
+	color: white;
+	background-color: var(--dark-blue);
+	font-size: 1.3em;
+	text-decoration: none;
+	padding: 13px;
+	border-radius: 10px;
+}
+
+#fbg {
+	width: 110%;
+	height: 110%;
+	margin-top: -13em;
+	margin-left: -2em;
+	margin-right: -2em;
+
 }
