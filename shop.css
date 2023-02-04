@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: rgb(221, 255, 223);
+	background-color: rgb(221, 240, 255);
 	align-items: center;
 	text-align: center;
 }
@@ -88,12 +88,16 @@ li a {
     height: 200px;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	margin-right: 10%;
+	border-radius: 30%;
 
 }
 
 .left-column {
 	padding-left: 10%;
 	text-align: left;
+	padding-bottom: 10%;
+
 }
 
 .shop-title {
@@ -104,6 +108,8 @@ li a {
 .shop-desc {
 	font-family: "Gilmer";
 	font-size: 1em;
+	padding-right: 10%;
+
 }
 
 .shop-category {
@@ -111,8 +117,8 @@ li a {
 	font-size: 0.8em;
 	margin-bottom: 3em;
 
-	/* background-color: yellow;
-	padding: 0; */
+	background-color: yellow;
+	padding: 0;
 }
 
 .view-button {
@@ -123,4 +129,13 @@ li a {
 	border-color: var(--dark-blue);
 	padding: 10px;
 	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	transition: 0.15s ease-in;
+}
+
+.view-button:hover {
+	background-color: white;
+	border-color: var(--dark-blue);
+	color: var(--dark-blue);
 }
