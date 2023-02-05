@@ -195,7 +195,7 @@ form .button{
   height: 30px;
   margin: 5px 0;
 }
-form .submit-button input{
+form .submit-button {
   cursor: pointer;
   font-family: "Gilmer Bold";
 	text-decoration: none;
@@ -210,7 +210,7 @@ form .submit-button input{
 	border-width: 3px;
 	transition: 0.15s ease-in;
 }
-form .submit-button input:hover{
+form .submit-button:hover{
   background-color: white;
 	border-color: var(--dark-blue);
 	color: var(--dark-blue);
