@@ -80,6 +80,12 @@ li a {
 	transition: 0.15s ease-in;
 }
 
+.filter-button:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: white;
+}
+
 #clothes-button:focus {
 	color: white;
 	background-color: var(--dark-blue);
