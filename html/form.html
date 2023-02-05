@@ -17,81 +17,83 @@
           </div>
           <div id="nav-options">
               <ul>
-                  <li><a href="../html/shop.html">Shop</a></li>
-                  <li><a href="../html/form.html">Sell</a></li>
-                  <li><a href="../html/about.html">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="form.html">Sell</a></li>
+                <li><a href="../index.html#mission-section">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
           </div>
       </div>
     </nav>
     
     <div class="container">
-        <header>Slug Shop Form</header>
+        <header class="text">Slug Shop Application</header>
         <form action="#">
             <div class="fields">
               <div class="label">
-                <label>Full Name</label>
+                <label class="text">Full Name</label>
                   <div class="input-field">
                     <input type="text" placeholder="Enter your full name">
                   </div>
               </div>
               <div class="label">
-                <label>Email</label>
+                <label class="text">Email</label>
                 <div class="input-field">
                   <input type="text" placeholder="Enter your email">
                 </div>
               </div>
               <div class="label">
-                <label>Business Name</label>
+                <label class="text">Business Name</label>
                 <div class="input-field">
                   <input type="text" placeholder="Enter your business name">
                 </div>
               </div>
               <div class="label">
-                <label>Choose Category</label>
+                <label class="text">Choose Category</label>
                 <div class="multi-select">
-                  <input type="checkbox" id="ex">
-                  <label for="ex">Example category</label><br>
+                  <input type="checkbox" id="c">
+                  <label for="c">Clothes</label><br>
+                  <input type="checkbox" id="a">
+                  <label for="a">Accessories</label><br>
+                  <input type="checkbox" id="f">
+                  <label for="f">Food</label><br>
+                  <input type="checkbox" id="s">
+                  <label for="s">Services</label><br>
+
                 </div>
               </div>
               <div class="label">
-                <label>Description of Business </label>
+                <label class="text">Description of Business </label>
                 <div class="large-input-field">
-                  <textarea name="business-desc" id="business-desc" 
-                            cols="30" rows="4" maxlength="250"
-                            placeholder="Enter business description (250 characters max)">
-                  </textarea>
+                  <textarea name="business-desc" id="business-desc" cols="30" rows="4" maxlength="250" placeholder="Enter business description (250 characters max)"></textarea>
                 </div>
               </div>
               <div class="label">
-                <label>Student ID Upload</label>
+                <label class="text">Student ID Upload</label>
                 <div class="upload-field">
                   <input type="file">
                 </div>
               </div>
               <div class="label">
-                <label>Social Media Accounts</label>
+                <label class="text">Social Media Account</label>
                 <div class="social-media-field">
                   <div class="social-left">
                     <input type="Platform" placeholder=" Social media platform">
                   </div>
                   <div class="social-right">
-                    <input type="text" placeholder=" Account name">
+                    <input type="text" placeholder=" Account username">
                   </div>
                 </div>
               </div>
               <div class="label">
-                <label>Business Profile Image</label>
+                <label class="text">Business Profile Image</label>
                 <div class="upload-field">
                   <input type="file">
                 </div>
               </div>
               <div class="label">
-                <label>Submit form</label>
-                <div class="button">
-                  <input type="submit" value = "Submit">
-                </div>
+                <!-- <label class="text">Submit form</label> -->
+                  <a href="../html/submission.html" class="submit-button">Submit</a> 
               </div>
             </div>
         </form>

@@ -12,8 +12,12 @@
 
 /* General */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	background-color: rgb(178, 223, 255);
+	background-color:  rgb(221, 240, 255);
 
 }
 
@@ -35,7 +39,7 @@ body {
 
 :root {
 	--dark-blue: rgb(0, 30, 107);
-	--light-blue: rgb(178, 223, 255);
+	--light-blue:  rgb(221, 240, 255);
 }
 /* Nav bar */
 
@@ -104,7 +108,8 @@ li a {
 	border-style: solid;
 	border-width: 3px;
 	transition: 0.15s ease-in;
-
+	z-index: 2;
+	position: absolute;
 }
 
 #browse-button:hover {
@@ -117,11 +122,20 @@ li a {
 #fbg {
 	width: 110%;
 	height: 70%;
-	margin-top: -15em;
+	margin-top: -10em;
 	margin-left: -2em;
 	margin-right: -2em;
-	
+	z-index: 1;
+	position:relative;
 }
+
+#nbg {
+	width: 100%;
+	height: 70%;
+	margin-top: -30em;
+
+}
+
 
 /* About page */
 #about-title {
@@ -136,3 +150,70 @@ li a {
 	margin-bottom: 2em;
 }
 
+/* Mission */
+
+#mission-section {
+	background-color: var(--light-blue);
+}
+#mission {
+	text-align: center;
+	justify-content: center;
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: -20em;
+	padding: 10px;
+	border-radius: 20px;
+	transition: box-shadow .3s ease;
+	box-shadow: 0 2px 4px 0 rgb(43, 49, 56), 0 3px 10px 0 rgb(93, 126, 217);
+	z-index: 3;
+	position: relative;
+}
+
+#mission:hover {
+	box-shadow: 0px 0px 20px rgb(51, 176, 222);
+}
+
+#mission-title {
+	font-family: "Gilmer Bold";
+	font-size: 4em;
+	margin-top: 0.2em;
+	color: var(--dark-blue);
+}
+
+#mission-subtitle {
+	font-family: "Gilmer";
+	font-size: 1.5em;
+}
+
+#how {
+	margin-top: 3em;
+	text-align: center;
+	font-family: "Gilmer Bold";
+	font-size: 3.4em;
+}
+
+#how-it-works {
+	margin-left: 25%; 
+	margin-right: 20%; 
+
+}
+
+.how-block {
+	display: flex;
+}
+
+.how-img {
+	width: 200px;
+	height: 200px;
+	margin-right: 3em;
+}
+
+.how-text h2 {
+	font-family: "Gilmer Bold";
+}
+
+.how-text h3 {
+	font-family: "Gilmer";
+
+}
