@@ -1,0 +1,87 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Gilmer";
+    src: url("../fonts/Gilmer-Regular.otf");
+}
+
+@font-face {
+    font-family: "Gilmer Bold";
+    src: url("../fonts/Gilmer-Bold.ttf");
+}
+
+body {
+	background-color: rgb(221, 240, 255);
+	align-items: center;
+	text-align: center;
+}
+/* Nav bar */
+
+nav {
+    top: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 1.5em; 
+}
+
+li {
+    display: inline;
+}
+
+
+li a {
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    font-family: "Gilmer Bold";
+}
+
+#ss-logo {
+	margin-top: -0.7em;
+    margin-left: 1.5em;
+    float: left;
+	width: 140px;
+    height: 140px;
+}
+
+#nav-options {
+    float: right;    
+}
+
+/* Shop-info page */
+
+#shop-page-title {
+    font-family: "Gilmer Bold";
+    font-size: 6em;
+    margin-top: 2em;
+    margin-bottom: 0;
+    top: 160px;
+    left: 10px;
+    margin-top: 170px;
+}
+
+.image-crop{
+    margin-left: 100px;
+    width: 230px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+}
+
+.round-shop-img {
+	display: inline;
+    margin: 0;
+    height: 100%;
+    width: auto;
+}
+
+.shop-page-info {
+    font-family: "Gilmer";
+}
