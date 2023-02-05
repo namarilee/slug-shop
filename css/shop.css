@@ -66,6 +66,10 @@ li a {
 	
 }
 
+.filter {
+	margin-bottom: 3em;
+}
+
 .filter-button {
 	font-family: "Gilmer Bold";
 	text-decoration: none;
