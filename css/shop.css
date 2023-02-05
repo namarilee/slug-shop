@@ -66,6 +66,12 @@ li a {
 	
 }
 
+.filter-button:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: var(--dark-blue);
+}
+
 .filter {
 	margin-bottom: 3em;
 }
