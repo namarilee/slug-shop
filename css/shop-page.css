@@ -65,6 +65,14 @@ li a {
     margin-top: 170px;
 }
 
+#shop-page-info {
+    font-family: "Gilmer";
+}
+
+.info-list {
+    margin-top: 2px
+}
+
 .image-crop{
     margin-left: 100px;
     width: 230px;
